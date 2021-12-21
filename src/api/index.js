@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const url = 'http://localhost:8080/api/v1';
+const url = 'https://arcane-inlet-86488.herokuapp.com/api/v1';
 const headers = (token) => ({
   headers: {
     'Content-Type': 'application/json',
